@@ -1,0 +1,75 @@
+h1 {
+  text-align:center;
+  position:relative;
+  top:45vh;
+  color: white;
+
+}
+
+
+
+
+
+a{
+
+ margin-top: -10px;
+  margin-left:560px;
+  position: absolute;
+  font-size: 40px;
+}
+
+
+
+
+
+
+span {
+  animation: tilt-shaking .5s infinite;
+  display: inline-block;
+  color: white;
+  font-size: 50px;
+}
+
+@keyframes tilt-shaking { 
+  0% { transform: rotate(0deg); 
+  }
+  25% { transform: rotate(5deg); 
+  }
+  50% { transform: rotate(0deg); 
+  }
+  75% { transform: rotate(-5deg); 
+  }
+  100% { transform: rotate(0deg); 
+  }
+}
+
+
+
+#S{
+
+  position:absolute;
+  left: 900px;
+  top: 400px;
+}
+
+
+#A{
+   position:absolute;
+  left: 950px;
+  top: 440px;
+}
+
+#L{
+
+position: absolute;
+left: 1000px;
+top: 550px;
+}
+
+#T{
+
+position:absolute;
+left:1100px;
+top:700px;
+}
+

@@ -1,0 +1,128 @@
+body{
+
+  font-family: arial;
+  padding: 3rem;
+}
+
+.container {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.item {
+
+max-width: 960px;
+text-align: center;
+}
+
+.button {
+  border: 2px solid;
+  padding: 20px;
+  front-size: 36px;
+  color: black;
+}
+
+.button:hover {
+background-color: black;
+color: white;
+cursor: pointer;
+}
+
+.button2 {
+  border: 2px solid;
+  padding: 20px;
+  front-size: 36px;
+  color: black;
+  margin-top: 45px;
+}
+
+.button2:hover {
+background-color: transparent;
+color: white;
+cursor: pointer;
+
+}
+
+.button3 {
+  border: 2px solid;
+  padding: 20px;
+  front-size: 36px;
+  color:black;
+  margin-top: 80px;
+}
+
+.button3:hover {
+background-color: black;
+color: whitesmoke;
+cursor: pointer;
+}
+
+
+
+.button4 {
+  border: 2px solid;
+  padding: 20px;
+  front-size: 36px;
+  color: black;
+  transition: all.6s ease-in;
+  margin-top: 85px;
+}
+
+.button4:hover {
+ background-color: black;
+ color: black;
+ cursor: pointer;
+ letter spacing: 3px;
+ color: black;
+  background-color: transparent;
+  border: 1px black;
+  border-radius: 4px;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: ;
+}
+
+.button4:hover {
+  transform: scale(1.1);
+}
+ 
+
+
+.button5 {
+
+  border: 2px solid;
+  padding: 20px;
+  front-size: 36px;
+  color: black;
+  margin-top: 80px;
+
+}
+
+.button5:hover {
+background-color: black;
+color: hotpink;
+cursor: pointer;
+}
+
+
+.hypnotize{
+  background: url("https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_and_white_wiggler.gif");
+}
+
+
+
+.Lightsoff{
+  background: url("https://upload.wikimedia.org/wikipedia/commons/7/71/Black.png");
+}
+
+
+
+
+.SpringBreak{
+  background: url("https://25.media.tumblr.com/cd4ef0d51f29348c274b141e36562879/tumblr_mrs5ihKVtg1suxj9go1_500.gif");
+}
+
+

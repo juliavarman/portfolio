@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <link rel="stylesheet" type="text/css" href="Maxim-2.css">
+</head>
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spinning Circular Text</title>
+  <style>
+
+   body{
+
+
+background-color: red;
+
+
+   }
+
+    .main {
+      display: grid;
+      align-items: center;
+      justify-items: center;
+    }
+
+
+
+
+  </style>
+
+</head>
+
+
+<div class="front">
+<a href="file:///Users/juliavarman/Desktop/Design2B/Projects/Maxims/Maxim-3/Maxim-3.html"><img src="https://www.freeiconspng.com/thumbs/arrow-icon/right-arrow-icon-114837-11.png"></a>
+</div>
+
+
+
+<body>
+
+
+  <div class="main">
+
+
+    <svg id="rotatingText" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <path id="circle" d="M 100, 100
+            m 70, 0
+            a 75, 75 0 1, 0 150, 0
+            a 75, 75 0 1, 0 -150, 0
+            ">
+    </path>
+  </defs>
+  <text width="400">
+    <textPath alignment-baseline="top" xlink:href="#circle" class="text">
+      Easy as pie Easy as pie Easy as pie Easy as pie -
+    </textPath>
+  </text>
+</svg>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
+
+  <style>
+    .text {
+      font-weight: 600;
+      letter-spacing: 1.7px;
+      text-transform: uppercase;
+      font-family: 'Kanit';
+      font-size: 20px;
+      fill:   #FFD700;
+      text-shadow: 2px 0px #ccc;
+    }
+    .main {
+      display: grid;
+      align-items: center;
+      justify-items: center;
+    }
+    .main img {
+      position: absolute;
+
+    }
+
+    #rotatingText {
+  animation-name: rotate-circle;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate-circle {
+  to {
+    transform: rotate(1turn);
+  }
+}
+  </style>
+
+
+ </div>
+</body>
+
+</html>

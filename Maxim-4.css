@@ -1,0 +1,156 @@
+
+
+
+a{
+
+ margin-top: -990px;
+  margin-left:550px;
+  position: absolute;
+  font-size: 40px;
+}
+
+
+
+h1 {    
+
+  margin:0;
+ padding: 0;
+ display:flex;
+justify-content:center;
+align-items: center;
+min-height: 100vh;
+overflow: hidden;
+position:absolute;
+margin-top: 40px;
+margin-left: 500px;
+
+}
+
+h1{
+  color: #FFEA00;
+font-size:60px;
+cursor:pointer;
+margin-top: -10px;
+
+}
+
+
+h2 {    
+
+  margin:0;
+ padding: 0;
+ display:flex;
+justify-content:center;
+align-items: center;
+min-height: 100vh;
+overflow: hidden;
+margin-top: 5px;
+margin-left: 340px;
+
+}
+
+h2{
+  color: #FFEA00;
+font-size:60px;
+cursor:pointer;
+}
+
+h3 {    
+
+  margin:0;
+ padding: 0;
+ display:flex;
+justify-content:center;
+align-items: center;
+min-height: 100vh;
+overflow: hidden;
+margin-top: -670px;
+margin-left: -270px;
+}
+
+h3 {
+  color: #FFEA00;
+font-size:60px;
+cursor:pointer;
+}
+
+h4 {    
+
+  margin:0;
+ padding: 0;
+ display:flex;
+justify-content:center;
+align-items: center;
+min-height: 100vh;
+overflow: hidden;
+margin-top: -790px;
+margin-left: 100px;
+}
+
+h4{
+ color: #FFEA00;
+font-size:60px;
+cursor:pointer;
+}
+
+
+
+@font-face { font-family: 'TmonMonsori'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+body{
+  font-family: 'TmonMonsori';
+  position: absolute;
+  top: 0; left: 0;
+  right: 0; bottom: 0;
+  width: 100%; height: 100%;
+  background-color: #ccc;
+  font-size: 80px;
+  color: #fff;
+  text-shadow: 0 1px #ccc, 0 2px #ccc, 0 3px #ccc, 0 4px #ccc, 0 5px #ccc, 0 6px 0 transparent, 0 7px transparent, 0 8px transparent, 0 9px transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+.box{
+  position: absolute;
+  top: 0s; left: 0;
+  right: 0; bottom: 0;
+  height: 100vh; width: 100vw;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.box span{
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  animation: bounce 0.3s ease infinite alternate;
+}
+@keyframes bounce{
+  100%{
+    top: -20px;
+    text-shadow: 0 1px #ccc, 
+                 0 2px #ccc, 
+                 0 3px #ccc, 
+                 0 4px #ccc, 
+                 0 5px #ccc,
+                 0 6px #ccc, 
+                 0 7px #ccc, 
+                 0 8px #ccc, 
+                 0 9px #ccc, 
+                 0 50px 25px rgba(0, 0, 0, 0.2);
+  }
+}
+.box span:nth-child(2){
+  animation-delay:0.1s;
+}
+.box span:nth-child(3){
+  animation-delay:0.2s;
+}
+.box span:nth-child(4){
+  animation-delay:0.3s;
+}
+.box span:nth-child(5){
+  animation-delay:0.4s;
+}
+
+
+
+

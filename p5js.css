@@ -1,0 +1,77 @@
+
+
+
+body {
+
+	background-image: url(https://media.tenor.com/TLsSaQMZYNsAAAAd/stars-space.gif);
+} 
+
+
+h1{
+	postion:absolute;
+	margin-top: 10px;
+	margin-left: 450px;
+	color: whitesmoke;
+	font: Trebuchet MS;
+	font-size: 80px;
+}
+
+
+.planets{
+position: absolute;
+margin-top: 10px;
+magrin-left: 600px;
+
+}
+
+.alien
+{
+
+margin-top: 10px;
+margin-left: 350px;
+
+}
+
+.planets2{
+margin-top: 10px;
+margin-left: 50px;
+
+}
+
+
+.moving
+{
+position: absolute;
+margin-top: 10px;
+margin-left: 45px;
+}
+
+.toggle
+{
+position: absolute;
+margin-top: 400px;
+margin-left: -515px;
+
+}
+
+.planetcursor
+
+{
+position: absolute;
+margin-top: 350px;
+margin-left: -115px;
+}
+
+.aliencursor
+
+{
+position: absolute;
+margin-top: 350px;
+margin-left: -1020px;
+}
+
+
+
+
+
+
